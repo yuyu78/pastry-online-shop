@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Crimson+Pro&family=Parisienne&display=swap");
+
+
+/* ----------------------------------- navbar */
+
+.bg-color-nav {
+    background-color: #fbe7c6a3;
+}
+
+.navbar-brand {
+    color: #ef929bc2;
+    font-family: "Parisienne", cursive;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+/* ----not sure if this code is written right, ask later to the mentor*/
+.navbar-brand:hover {
+  color: #ef929bc2;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40; 
+    font-family: "Crimson pro", sans-serif;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 10rem;
+}
+}
+
+.navbar-menu-icon { 
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.active-underline {
+    border-bottom: 2px solid black;
+}
+
+/* navbar home page */
+
+.navbar-nav>li>a:hover {
+  background-color: #d6cece;
+  color: #343a40;
+}
+
+

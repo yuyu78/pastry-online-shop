@@ -1,45 +1,127 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yuki Ishii
 
-Welcome USER_NAME,
+## Un Delice
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The aim of this project is to create a website of French pastry shop, located in Dublin.
+The business is selling 2 types of product:
+..* **the patisserie**: the general French pastries (ex: Mille-Feuille, Eclair)
+..* **the viennoiserie**: it is a category of pastry, a mix between pastry and bakery (ex: croissant, pain au chocolat).
 
-## Gitpod Reminders
+The design of the website is simple and clear so that the customer can navigate and read easily all the informations in each different page.
+The customer can choose between two options to receive the order: collection at store or delivery.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+### User Stories
+..* As a first time visitor, I want information about the French pastry 
+..* As a first time visitor, I want to view the list of pastry available
+..* As a first time visitor, I want to easily navigate the site and get clear information
+..* As an interested client, I want to know the ordering process
+..* As an interested client, I want to know how and when I can receive my order 
+..* As a interested client, I want to get information about the shop, the contact details, the location, the opening hour
+..* As a retuning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+### The Ideal clients: 
+..* clients who like desert, sweet
+..* clients from France living in Dublin and want to find French pastry shop
+..* clients who want to discover new type of pastry
+..* clients who are living within Dublin 1 and 24 or visitor, tourist who are currently in this area
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+### The goal & need of the client:
+The goal is to have easy and clear information about the shop through the website and make purchase in few steps.
 
-Another blue button should appear to click: *Open Browser*.
+The client needs to know what contain the product, the flavor, the allergen and the price.
+The customer need also information about ordering process, the collection and delivery option, the contact details, location.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+### The goal & need of the business:
+The goal of the business is to promote the shop, make known the French pastry in Dublin.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The business needs to advertise the product through the website and social media. 
+The business has to provide clear information for good user experience.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Wireframe
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[Wireframe](wireframe/Home page.pdf)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[Wireframe](wireframe/Subscription home page.pdf)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[Wireframe](wireframe/Our product dropdown patisserie viennoiserie.pdf)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+[Wireframe](wireframe/Order online form.pdf)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[Wireframe](wireframe/Our store.pdf)
 
---------
+[Wireframe](wireframe/Confirmation order.pdf)
 
-Happy coding!
+
+## Features
+
+
+#### Home
+In the home page on the top, the full width image with a simple sentence in the middle. 
+Underneath, for the marketing aim, the business will offer free delivery on the first order. A modal component will will display with the option to receive marketing communication. 
+There will be a brief description about the patisserie and viennoiserie.
+At the end, a brief explanation about the delivery.
+
+#### Our product
+By clicking on the component *our product*, it will appear two option clickable: the patisserie and viennoiserie. and will load the page selected.
+The layout of these two pages are the same. The list of product will be displayed in three columns on desktop and tablet.
+On mobile device, it will show two columns.
+
+#### Order online
+On the top of this page, an explanation about ordering process and collection, delivery option.
+Underneath, a form of the order details: 
+On the first part, the details of the customer.
+
+On the second part, a input number beside the name of the product in order to select the amount. 
+Under the patisserie and viennoiserie, a link to direct to the list of the product page into the new browser.
+So if the customer don´t remember how the product looks like, by clicking on the link, the customer can check again to be sure about the product selected.
+
+At the end of the form, the customer has to select between the collection or delivery option. 
+Both option contains hiddent div, so if the customer select delivery option, it will appear the date, time and address to fill out. If the collection option is selected, it only appear the date and time to choose.
+
+#### Confirmation order
+When the customer will confirm the order, it will load a confirmation order page.
+In general, when the customers made an order, they will not come back for a while so for this reason, the navigation bar and the footer are removed.
+In order to invite the customer to return to the online shop, the business want to focus on following on social media. 
+On the bottom, a link is provided to go back to the home page.
+
+
+### Existing features
+In each page (except the confirmation order):
+..* A navigation bar with the name of the shop on the left and on the right there will be four clickable option: **Home**, **our product** with the dropdown giving the option to choose patisserie and viennoiserie, **order online** and **our store**.
+The navigation bar will be fixed so it will keep displaying when the user scroll down.
+On the mobile device, the component of the navigation bar will collapse.
+..* A footer will also be displayed in each page: from the left, the name of the business, the contact details, the location and social medial link.
+Each pages are responsives on all device sizes.
+The navigation bar and the footer will appear in all the page except the confirmation order.
+
+..* A modal component from bootstrap, when the customer enter the email address and suscribe.
+
+
+## Technologies Used
+..* HTML and croissant
+..* Github and Gitpod
+..* Bootstrap version 4.3.1
+..* Jquery
+..* Google fonts
+..* Google Chrome Dev tools
+## Testing
+
+## Deployment
+
+## Credits
+To write the Readme file, I was inpired by the [template of Anna Gilhespy](https://files.slack.com/files-pri/T0L30B202-F01MKRU0C00/readme.md) and and from [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+### Content
+The code for hover in the navigation was taken from stack overflow
+
+### Media
+
+
+### Achnowledgments
+
