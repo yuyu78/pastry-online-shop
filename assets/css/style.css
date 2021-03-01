@@ -3,6 +3,7 @@
 
 /* ----------------------------------- navbar */
 
+
 .bg-color-nav {
     background-color: #fbe7c6a3;
 }
@@ -14,7 +15,7 @@
     font-weight: 600;
 }
 
-/* ----not sure if this code is written right, ask later to the mentor*/
+/* not sure if this code is written right, ask later to the mentor*/
 .navbar-brand:hover {
   color: #ef929bc2;
 }
@@ -48,11 +49,73 @@
     border-bottom: 2px solid black;
 }
 
-/* navbar home page */
+/* ---navbar home page */
 
 .navbar-nav>li>a:hover {
   background-color: #d6cece;
   color: #343a40;
+}
+
+
+/* ----------------------------------- hero image*/
+
+#hero-image {
+    background-image: url("../images/background-image.jpg");
+    width: 100%;
+    height: 60vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+} 
+
+@media screen and (min-width: 768px) {
+    #hero-image {
+      height: 100vh;   
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-image {
+      height: 150vh;   
+    }
+}
+
+/* in Iphone 5, not sure if looks correct, ask to the mentor*/
+#hero-text {
+    text-align: center;
+    color: white;
+    margin: 70px 10px auto 10px;
+} 
+
+@media screen and (min-width: 768px) {
+    #hero-text > h1 {
+    margin: 150px 10px 10px 10px;
+ }
+}
+
+#hero-text > h1 {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    #hero-text > h1 {
+        font-size: 3.5rem;
+ }
+}
+
+.bg-opaque {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+@media screen and (min-width: 768px) {
+    p {
+      font-size: 1.2rem;   
+    }
 }
 
 
