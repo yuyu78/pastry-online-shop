@@ -119,3 +119,13 @@
 }
 
 
+/* ----------------------------------- subscription input email*/
+
+form.container-sm {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.suscribe-button {
+    margin-top: 20px;
+}
