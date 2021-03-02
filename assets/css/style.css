@@ -121,17 +121,31 @@
 
 /* ----------------------------------- subscription input email*/
 
-form.container-sm {
+.subscription-email {
     text-align: center;
     margin-top: 35px;
 }
 
 .suscribe-button {
     margin-top: 20px;
+    margin-left:0;
 }
+
+
 
 @media screen and (min-width: 768px) {
     .suscribe-button {
-    margin-top: 0px;
+    margin-top: 20px;
+    }
 }
+
+@media screen and (min-width: 992px) {
+    .suscribe-button {
+    margin-top: 0px;
+    }
+}
+
+.subscribe-text-align {
+    font-size: 1.1rem;
+    padding-right: 0;
 }
