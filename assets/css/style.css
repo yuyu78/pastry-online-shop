@@ -129,3 +129,9 @@ form.container-sm {
 .suscribe-button {
     margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .suscribe-button {
+    margin-top: 0px;
+}
+}
