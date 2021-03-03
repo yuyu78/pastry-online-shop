@@ -149,3 +149,26 @@
     font-size: 1.1rem;
     padding-right: 0;
 }
+
+
+/* ----------------------------------- horizontal line*/
+
+.block-divider {
+    background-color: #ef929bc2;
+    width: 10rem;
+}
+
+@media screen and (min-width: 992px) {
+    .block-divider {
+    background-color: #ef929bc2;
+    width: 30rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .block-divider {
+    background-color: #ef929bc2;
+    width: 50rem;
+    }
+}
+
