@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Crimson+Pro&family=Parisienne&display=swap");
 
-
+html, body {
+    overflow-x: hidden;
+}
  main {
      padding-top: 80px;
  }
+
+ /* ----------------------------------- style text */
+
+ .text-justify {
+    text-align: justify;
+ }
+
 
 /* ----------------------------------- button */
 .btn-color {
@@ -53,7 +62,7 @@
     font-size: 1.1rem;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .navbar-nav {
     margin-left: auto;
     margin-right: 0;
@@ -89,7 +98,7 @@
 #hero-image {
     background-image: url("../images/background-image.jpg");
     width: 100%;
-    height: 50vh; 
+    height: 60vh; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -117,22 +126,35 @@
 #hero-text {
     text-align: center;
     color: white;
-    margin: 70px 10px auto 10px;
+    margin: 50px 10px auto 10px;
 } 
 
 @media screen and (min-width: 768px) {
     #hero-text > h1 {
-    margin: 150px 10px 10px 10px;
+    margin: 100px 10px 10px 10px;
  }
 }
 
 #hero-text > h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 576px) {
     #hero-text > h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
+ }
+}
+
+@media screen and (min-width: 992px) {
+    #hero-text > h1 {
+        font-size: 4rem;
+ }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-text > h1 {
+        font-size: 4.7rem;
  }
 }
 
@@ -213,12 +235,31 @@
 }
 
 .info-pastry p {
-    text-align: justify;
     margin: auto 10px auto 10px;
 }
 
 
 .margin-viennoiserie {
     margin-top: 20px;
+}
+
+
+/* ----------------------------------- information order store and online*/
+
+.info-order {
+    margin-top: 5rem;
+}
+
+.order-requirement {
+    border: 1px solid black;
+    background-color:#80808069;
+    text-align: center;
+    height: 12rem;
+    padding-top: 15px;
+}
+
+#none-border-bottom {
+    border-bottom: none;
+    padding-top: 2rem;
 }
 
