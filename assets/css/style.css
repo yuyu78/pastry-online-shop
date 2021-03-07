@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Crimson+Pro&family=Parisienne&display=swap");
 
+html, body{
+    overflow-x: hidden;
+}
 
 /* ----------------------------------- navbar */
 
@@ -156,6 +159,7 @@
 .block-divider {
     background-color: #ef929bc2;
     width: 10rem;
+    margin-top: 2.5rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -170,5 +174,29 @@
     background-color: #ef929bc2;
     width: 50rem;
     }
+}
+
+/* ----------------------------------- explanation patisserie and viennoiserie*/
+
+.info-pastry {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-pastry h3 {
+    margin-bottom: 20px;
+}
+
+.info-pastry p {
+    text-align: justify;
+    margin: auto 10px auto 10px;
+}
+
+.img-fluid {
+    margin-top: 30px;
+}
+
+.margin-viennoiserie {
+    margin-top: 50px;
 }
 
