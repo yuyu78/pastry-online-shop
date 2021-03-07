@@ -4,6 +4,25 @@ html, body{
     overflow-x: hidden;
 }
 
+/* ----------------------------------- button */
+.btn-color {
+    color: #000;
+    background-color: #eac387;
+    border-color: #000;
+}
+
+.btn-color:hover,
+.btn-color:active,
+.btn-color:focus,
+.btn-color:active:focus {
+    background-color: #dc9429;
+    color:#000;
+}
+
+#btn-our-selection {
+    margin-top: 1.2rem;
+}
+
 /* ----------------------------------- navbar */
 
 
@@ -12,7 +31,7 @@ html, body{
 }
 
 .navbar-brand {
-    color: #ef929bc2;
+    color: #e8a831b8;
     font-family: "Parisienne", cursive;
     font-size: 2.25rem;
     font-weight: 600;
@@ -20,7 +39,7 @@ html, body{
 
 /* not sure if this code is written right, ask later to the mentor*/
 .navbar-brand:hover {
-  color: #ef929bc2;
+  color: #e8a831b8;
 }
 
 .navbar-nav .nav-link {
