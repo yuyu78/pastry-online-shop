@@ -19,7 +19,7 @@ html, body{
     color:#000;
 }
 
-#btn-our-selection {
+.btn-our-selection {
     margin-top: 1.2rem;
 }
 
@@ -84,7 +84,7 @@ html, body{
 #hero-image {
     background-image: url("../images/background-image.jpg");
     width: 100%;
-    height: 60vh; 
+    height: 50vh; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -92,13 +92,13 @@ html, body{
 
 @media screen and (min-width: 768px) {
     #hero-image {
-      height: 100vh;   
+      height: 65vh;   
     }
 }
 
 @media screen and (min-width: 1200px) {
     #hero-image {
-      height: 150vh;   
+      height: 100vh;   
     }
 }
 
@@ -135,8 +135,9 @@ html, body{
 }
 
 @media screen and (min-width: 768px) {
-    p {
-      font-size: 1.2rem;   
+    #hero-text p {
+      font-size: 1.2rem; 
+      font-weight: 500;  
     }
 }
 
@@ -178,28 +179,22 @@ html, body{
 .block-divider {
     background-color: #ef929bc2;
     width: 10rem;
-    margin-top: 2.5rem;
+    margin: 3.5rem auto 3.5rem auto;
 }
 
-@media screen and (min-width: 992px) {
-    .block-divider {
-    background-color: #ef929bc2;
-    width: 30rem;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .block-divider {
-    background-color: #ef929bc2;
-    width: 50rem;
-    }
-}
 
 /* ----------------------------------- explanation patisserie and viennoiserie*/
 
 .info-pastry {
     text-align: center;
     margin-top: 20px;
+    font-size: 1.1rem; 
+}
+
+@media screen and (min-width: 992px) {
+    .info-pastry {
+    margin-top: 5.5rem;
+    }
 }
 
 .info-pastry h3 {
@@ -211,11 +206,8 @@ html, body{
     margin: auto 10px auto 10px;
 }
 
-.img-fluid {
-    margin-top: 30px;
-}
 
 .margin-viennoiserie {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
