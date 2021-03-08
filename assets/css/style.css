@@ -258,8 +258,25 @@ html, body {
     padding-top: 15px;
 }
 
-#none-border-bottom {
-    border-bottom: none;
-    padding-top: 2rem;
+
+@media screen and (max-width: 576px) {
+    #box-order-store {
+    border-bottom: 0;
+    }
 }
 
+@media screen and (min-width: 576px) {
+    #box-order-store {
+    margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #box-order-online {
+    margin-left: 10px;
+    }
+}
+
+.order-requirement h5 {
+    padding-top: 1rem;
+}
