@@ -7,6 +7,12 @@ html, body {
      padding-top: 80px;
  }
 
+ /* ----------------------------------- color */
+
+ .bg-color {
+    background-color: #fbe7c6;
+}
+
  /* ----------------------------------- style text */
 
  .text-justify {
@@ -40,11 +46,7 @@ html, body {
     width: 100%;
 }
 
-.bg-color-nav {
-    background-color: #fbe7c6;
-}
-
-.navbar-brand {
+.name-brand {
     color: #e8a831b8;
     font-family: "Parisienne", cursive;
     font-size: 2.25rem;
@@ -104,23 +106,24 @@ html, body {
     position: relative;
 } 
 
+@media screen and (min-width: 576px) {
+    #hero-image {
+      height: 75vh;   
+    }
+}
+
 @media screen and (min-width: 768px) {
     #hero-image {
-      height: 70vh;   
+      height: 100vh;   
     }
 }
 
 @media screen and (min-width: 992px) {
     #hero-image {
-      height: 85vh;   
+      height: 120vh;   
     }
 }
 
-@media screen and (min-width: 1200px) {
-    #hero-image {
-      height: 100vh;   
-    }
-}
 
 /* in Iphone 5, not sure if looks correct, ask to the mentor*/
 #hero-text {
@@ -254,7 +257,7 @@ html, body {
     border: 1px solid black;
     background-color:#80808069;
     text-align: center;
-    height: 12rem;
+    height: 14rem;
     padding-top: 15px;
 }
 
@@ -279,4 +282,34 @@ html, body {
 
 .order-requirement h5 {
     padding-top: 1rem;
+}
+
+/* ----------------------------------- Footer*/
+
+@media screen and (min-width: 576px) {
+    footer {
+    margin-top: 4.5rem;
+    }
+}
+
+#footer-details {
+    padding: 30px 10px 10px 10px;
+}
+
+.fa-facebook-square,
+.fa-instagram, 
+.fa-twitter-square,
+.fa-linkedin {
+    font-size: 35px;
+    margin-right: 5px;
+    color: #212529;
+}
+
+@media screen and (min-width: 576px) {
+    .fa-facebook-square,
+    .fa-instagram, 
+    .fa-twitter-square,
+    .fa-linkedin{
+    font-size: 25px;
+    }
 }

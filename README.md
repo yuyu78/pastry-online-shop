@@ -118,7 +118,8 @@ The navigation bar and the footer will appear in all the page except the confirm
 To write the Readme file, I was inpired by the [template of Anna Gilhespy](https://files.slack.com/files-pri/T0L30B202-F01MKRU0C00/readme.md) and and from [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
 Some code are inspired from the course Code Institute.
 ### Content
-The code for hover in the navigation was taken from stack overflow
+Some codes were taken from stack overflow. 
+The list of social media link in the footer was inpired from the code institue course Mini project resume.
 
 ### Media
 
