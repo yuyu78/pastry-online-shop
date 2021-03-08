@@ -85,7 +85,7 @@ html, body {
     border-bottom: 2px solid black;
 }
 
-/* ---navbar home page */
+/* ---navbar home page link*/
 
 .navbar-nav>li>a:hover {
   background-color: #d6cece;
