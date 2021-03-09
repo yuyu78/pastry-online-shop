@@ -301,9 +301,16 @@ html, body {
 .fa-instagram, 
 .fa-twitter-square,
 .fa-linkedin {
-    font-size: 35px;
+    font-size: 30px;
     margin-right: 5px;
     color: #212529;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover, 
+.fa-twitter-square:hover,
+.fa-linkedin:hover {
+    color: #e8a831b8;
 }
 
 @media screen and (min-width: 576px) {

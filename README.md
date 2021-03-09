@@ -45,7 +45,7 @@ The business has to provide clear information for good user experience.
 
 ### Wireframe
 
-[Wireframe](wireframe/Home page.pdf)
+[file.pdf](wireframe/Home_page.pdf)
 
 [Wireframe](wireframe/Subscription home page.pdf)
 
