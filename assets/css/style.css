@@ -272,6 +272,8 @@ html, body {
 
 footer {
     margin-top: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;;
 }
 
 
@@ -282,16 +284,24 @@ footer {
 .fa-facebook-square,
 .fa-instagram, 
 .fa-twitter-square,
-.fa-linkedin {
+.fa-linkedin, {
     font-size: 30px;
     margin-right: 5px;
+}
+
+.fa-facebook-square,
+.fa-instagram, 
+.fa-twitter-square,
+.fa-linkedin,
+.fa-map-marked-alt {
     color: #212529;
 }
 
 .fa-facebook-square:hover,
 .fa-instagram:hover, 
 .fa-twitter-square:hover,
-.fa-linkedin:hover {
+.fa-linkedin:hover,
+.fa-map-marked-alt:hover {
     color: #e8a831b8;
 }
 

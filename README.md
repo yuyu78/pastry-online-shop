@@ -4,8 +4,8 @@
 
 The aim of this project is to create a website of French pastry shop, located in Dublin.
 The business is selling 2 types of product:
-..* **the patisserie**: the general French pastries (ex: Mille-Feuille, Eclair)
-..* **the viennoiserie**: it is a category of pastry, a mix between pastry and bakery (ex: croissant, pain au chocolat).
+* **the patisserie**: the general French pastries (ex: Mille-Feuille, Eclair)
+* **the viennoiserie**: it is a category of pastry, a mix between pastry and bakery (ex: croissant, pain au chocolat).
 
 The design of the website is simple and clear so that the customer can navigate and read easily all the informations in each different page.
 The customer can choose between two options to receive the order: collection at store or delivery.
@@ -13,20 +13,20 @@ The customer can choose between two options to receive the order: collection at 
 ## UX
 
 ### User Stories
-..* As a first time visitor, I want information about the French pastry 
-..* As a first time visitor, I want to view the list of pastry available
-..* As a first time visitor, I want to easily navigate the site and get clear information
-..* As an interested client, I want to know the ordering process
-..* As an interested client, I want to know how and when I can receive my order 
-..* As a interested client, I want to get information about the shop, the contact details, the location, the opening hour
-..* As a retuning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop
+* As a first time visitor, I want information about the French pastry.
+* As a first time visitor, I want to view the list of pastry available.
+* As a first time visitor, I want to easily navigate the site and get clear information.
+* As an interested client, I want to know the ordering process.
+* As an interested client, I want to know how and when I can receive my order.
+* As a interested client, I want to get information about the shop, the contact details, the location, the opening hour.
+* As a retuning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
 
 
 ### The Ideal clients: 
-..* clients who like desert, sweet
-..* clients from France living in Dublin and want to find French pastry shop
-..* clients who want to discover new type of pastry
-..* clients who are living within Dublin 1 and 24 or visitor, tourist who are currently in this area
+* clients who like desert, sweet.
+* clients from France living in Dublin and want to find French pastry shop.
+* clients who want to discover new type of pastry.
+* clients who are living within Dublin 1 and 24 or visitor, tourist who are currently in this area.
 
 
 ### The goal & need of the client:
@@ -45,17 +45,17 @@ The business has to provide clear information for good user experience.
 
 ### Wireframe
 
-[file.pdf](wireframe/Home_page.pdf)
+[Home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Home%20page.pdf)
 
-[Wireframe](wireframe/Subscription home page.pdf)
+[Subcription home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Subscription%20home%20page.pdf)
 
-[Wireframe](wireframe/Our product dropdown patisserie viennoiserie.pdf)
+[Product page: Patisserie and Viennoiserie](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Our%20product%20dropdown%20patisserie%20viennoiserie.pdf)
 
-[Wireframe](wireframe/Order online form.pdf)
+[Order online form](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Order%20online%20form.pdf)
 
-[Wireframe](wireframe/Our store.pdf)
+[Our store](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Our%20store.pdf)
 
-[Wireframe](wireframe/Confirmation order.pdf)
+[Confirmation order](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Confirmation%20order.pdf)
 
 
 ## Features
@@ -93,23 +93,23 @@ On the bottom, a link is provided to go back to the home page.
 
 ### Existing features
 In each page (except the confirmation order):
-..* A navigation bar with the name of the shop on the left and on the right there will be four clickable option: **Home**, **our product** with the dropdown giving the option to choose patisserie and viennoiserie, **order online** and **our store**.
+* A navigation bar with the name of the shop on the left and on the right there will be four clickable option: **Home**, **our product** with the dropdown giving the option to choose patisserie and viennoiserie, **order online** and **our store**.
 The navigation bar will be fixed so it will keep displaying when the user scroll down.
 On the mobile device, the component of the navigation bar will collapse.
-..* A footer will also be displayed in each page: from the left, the name of the business, the contact details, the location and social medial link.
+* A footer will also be displayed in each page: from the left, the name of the business, the contact details, the location and social medial link.
 Each pages are responsives on all device sizes.
 The navigation bar and the footer will appear in all the page except the confirmation order.
 
-..* A modal component from bootstrap, when the customer enter the email address and suscribe.
+* A modal component from bootstrap, when the customer enter the email address and suscribe.
 
 
 ## Technologies Used
-..* HTML and CSS
-..* Github and Gitpod
-..* Bootstrap version 4.3.1
-..* Jquery
-..* Google fonts
-..* Google Chrome Dev tools
+* HTML and CSS
+* Github and Gitpod
+* Bootstrap version 4.3.1
+* Jquery
+* Google fonts
+* Google Chrome Dev tools
 ## Testing
 
 ## Deployment
