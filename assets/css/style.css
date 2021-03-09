@@ -104,12 +104,6 @@ html, body {
     position: relative;
 } 
 
-/*@media screen and (min-width: 576px) {
-    #hero-image {
-      height: 75vh;   
-    }
-} */
-
 @media screen and (min-width: 768px) {
     #hero-image {
       height: 80vh;   
@@ -128,8 +122,6 @@ html, body {
     }
 }
 
-
-/* in Iphone 5, not sure if looks correct, ask to the mentor*/
 #hero-text {
     text-align: center;
     color: white;
@@ -144,7 +136,7 @@ html, body {
 
 @media screen and (min-width: 768px) {
     #hero-text > h1 {
-    padding-top:;
+    padding-top: 5rem;
  }
 }
 
@@ -156,18 +148,13 @@ html, body {
 @media screen and (min-width: 576px) {
     #hero-text > h1 {
         font-size: 3rem;
+        font-weight: 400;
  }
 }
 
 @media screen and (min-width: 992px) {
     #hero-text > h1 {
         font-size: 4rem;
- }
-}
-
-@media screen and (min-width: 1200px) {
-    #hero-text > h1 {
-        font-size: 4.7rem;
  }
 }
 
@@ -217,6 +204,10 @@ html, body {
 .subscribe-text-align {
     font-size: 1.1rem;
     padding-right: 0;
+}
+
+#checkbox-marketing-email{
+    font-size: 12px;
 }
 
 
