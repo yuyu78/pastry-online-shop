@@ -56,6 +56,11 @@ html, body {
   color: #e8a831b8;
 }
 
+.name-brand + p{
+    font-family: "Alegreya", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
 .navbar-nav .nav-link {
     color: #343a40; 
     font-family: "Crimson pro", sans-serif;
@@ -250,35 +255,12 @@ html, body {
 
 /* ----------------------------------- information order store and online*/
 
-.info-order {
-    margin-top: 5rem;
+#info-order {
+    margin-top: -15px;
 }
-
 .order-requirement {
-    border: 1px solid black;
-    background-color:#80808069;
     text-align: center;
-    height: 14rem;
-    padding-top: 15px;
-}
-
-
-@media screen and (max-width: 576px) {
-    #box-order-store {
-    border-bottom: 0;
-    }
-}
-
-@media screen and (min-width: 576px) {
-    #box-order-store {
-    margin-left: 10px;
-    }
-}
-
-@media screen and (min-width: 576px) {
-    #box-order-online {
-    margin-left: 10px;
-    }
+    height: 10rem;
 }
 
 .order-requirement h5 {
@@ -287,11 +269,11 @@ html, body {
 
 /* ----------------------------------- Footer*/
 
-@media screen and (min-width: 576px) {
-    footer {
+
+footer {
     margin-top: 4.5rem;
-    }
 }
+
 
 #footer-details {
     padding: 30px 10px 10px 10px;
