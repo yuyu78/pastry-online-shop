@@ -3,9 +3,7 @@
 html, body {
     overflow-x: hidden;
 }
- main {
-     padding-top: 80px;
- }
+
 
  /* ----------------------------------- color */
 
@@ -44,6 +42,7 @@ html, body {
 .navbar {
     position: fixed;
     width: 100%;
+    height: auto;
 }
 
 .name-brand {
@@ -53,8 +52,7 @@ html, body {
     font-weight: 600;
 }
 
-/* not sure if this code is written right, ask later to the mentor*/
-.navbar-brand:hover {
+.name-brand:hover {
   color: #e8a831b8;
 }
 
@@ -106,21 +104,27 @@ html, body {
     position: relative;
 } 
 
-@media screen and (min-width: 576px) {
+/*@media screen and (min-width: 576px) {
     #hero-image {
       height: 75vh;   
     }
-}
+} */
 
 @media screen and (min-width: 768px) {
     #hero-image {
-      height: 100vh;   
+      height: 80vh;   
     }
 }
 
 @media screen and (min-width: 992px) {
     #hero-image {
-      height: 120vh;   
+      height: 95vh;   
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-image {
+      height: 115vh;   
     }
 }
 
@@ -129,12 +133,18 @@ html, body {
 #hero-text {
     text-align: center;
     color: white;
-    margin: 50px 10px auto 10px;
+    padding-top: 5.5rem;
 } 
+
+@media screen and (min-width: 576px) {
+    #hero-text > h1 {
+    padding-top: 2.5rem;
+ }
+}
 
 @media screen and (min-width: 768px) {
     #hero-text > h1 {
-    margin: 100px 10px 10px 10px;
+    padding-top:;
  }
 }
 
