@@ -11,25 +11,12 @@ html, body {
     background-color: #fbe7c6;
 }
 
- /* ----------------------------------- style text */
+/* ----------------------------------- style text */
 
- .text-justify {
+.text-justify {
     text-align: justify;
  }
 
- .margin-title-product {
-    margin-top: 7rem;
-    text-align: center;
-}
-
-.margin-title-product h1 {
-    text-decoration: underline;
-}
-
-.margin-title-product p {
-    font-style: italic;
-    color: grey;
-}
 
 /* ----------------------------------- button */
 .btn-color {
@@ -331,5 +318,62 @@ footer {
 }
 
 
-/* ------------------------------------------------------------------ patisserie page*/
+/* ------------------------------------------------------------------ patisserie and viennoiserie page*/
 
+
+.margin-title-product {
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.margin-title-product h1 {
+    text-decoration: underline;
+}
+
+.margin-title-product p {
+    font-style: italic;
+    color: grey;
+}
+
+.name-product {
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+@media screen and (min-width: 768px) {
+    .name-product {
+    text-align: center;
+    }
+}
+
+
+.description-product {
+    font-size: 0.9rem;
+}
+
+.name-product span {
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+    color: #808080bf;
+
+}
+
+.info-allergens {
+    font-size: 13px;
+    color: grey;
+    font-style: italic;
+}
+
+.margin-product {
+    margin-bottom: 3.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .margin-product {
+    margin-bottom: 3.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    }
+}
