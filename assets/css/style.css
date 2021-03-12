@@ -397,15 +397,51 @@ footer {
 }
 
 .list-product input {
-    width: 2rem;
+    width: 2.4rem;
 }
+
+.list-product .col-6 {
+    margin-bottom: 30px;
+    line-height: 1.1;
+}
+
+@media screen and (min-width: 576px) {
+    .list-product .col-6 {
+    font-size: 14px;
+    }
+}
+
 
 .list-product label {
     width: 4.8rem;
     text-align: right;
 }
 
-.list-product .col-6 {
-    margin-bottom: 30px;
-    line-height: 1.1;
+@media screen and (min-width: 420px) {
+    .list-product label {
+    width: 6.5rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .list-product label {
+    width: 9rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .list-product label {
+    width: 8rem;
+    }
+    
+@media screen and (min-width: 992px) {
+    .list-product label {
+    width: 8rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .list-product label {
+    width:10rem;
+    }
 }
