@@ -386,3 +386,26 @@ footer {
     color: red;
     font-weight: bold;
 }
+
+.adjust-title-product {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.list-product {
+    font-size: 12px;
+}
+
+.list-product input {
+    width: 2rem;
+}
+
+.list-product label {
+    width: 4.8rem;
+    text-align: right;
+}
+
+.list-product .col-6 {
+    margin-bottom: 30px;
+    line-height: 1.1;
+}
