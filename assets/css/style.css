@@ -368,6 +368,10 @@ footer {
 
 /* ------------------------------------------------------------------ order form*/
 
+.form-control {
+    border-color: #7e8082e3;
+}
+
 .info-collection-delivery {
     margin-top: 7rem;
 }
@@ -433,7 +437,8 @@ footer {
     .list-product label {
     width: 8rem;
     }
-    
+}
+
 @media screen and (min-width: 992px) {
     .list-product label {
     width: 8rem;
