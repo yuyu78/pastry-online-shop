@@ -298,11 +298,6 @@ footer {
 }
 
 
-.margin-viennoiserie {
-    margin-top: 20px;
-}
-
-
 /* ------------------ information order store and online*/
 
 #info-order {
@@ -370,3 +365,24 @@ footer {
     margin-bottom: 3.5rem;
 }
 
+
+/* ------------------------------------------------------------------ order form*/
+
+.info-collection-delivery {
+    margin-top: 7rem;
+}
+
+.margin-top-form {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.customer-info {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.asterisk-required {
+    color: red;
+    font-weight: bold;
+}
