@@ -17,6 +17,15 @@ html, body {
     text-align: justify;
  }
 
+.asterisk-required {
+    color: red;
+    font-weight: bold;
+}
+
+.margin-bottom-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
 /* ----------------------------------- button */
 .btn-color {
@@ -386,15 +395,6 @@ footer {
     margin-bottom: 4rem;
 }
 
-.asterisk-required {
-    color: red;
-    font-weight: bold;
-}
-
-.adjust-title-product {
-    text-align: center;
-    margin-bottom: 4rem;
-}
 
 .list-product {
     font-size: 12px;
@@ -450,4 +450,29 @@ footer {
     .list-product label {
     width:10rem;
     }
+}
+
+/* ------------------------------------------------------------------ collection or delivery*/
+#collection-delivery-required {
+   color: #808080bf;
+}
+
+input[type=radio]:checked ~ .info-hidden{
+    display: block;
+}
+.info-hidden{
+    display: none;
+}
+
+input[type=date], input[type=time] {
+    width: 60%;
+    margin-bottom:20px;
+}
+
+.margin-bottom-form {
+    margin-bottom: 12px;
+}
+
+#additional-info {
+    height: 4.5rem;
 }
