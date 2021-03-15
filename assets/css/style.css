@@ -17,6 +17,10 @@ html, body {
     text-align: justify;
  }
 
+ .text-align-center {
+     text-align: center;
+ }
+
 .asterisk-required {
     color: red;
     font-weight: bold;
@@ -452,7 +456,7 @@ footer {
     }
 }
 
-/* ------------------------------------------------------------------ collection or delivery*/
+/* collection or delivery*/
 #collection-delivery-required {
    color: #808080bf;
 }
@@ -480,3 +484,14 @@ input[type=date], input[type=time] {
 #confirm-order {
     text-align: center;
 }
+
+/* ------------------------------------------------------------------ Our store*/
+
+#store-image {
+    background-image: url("../images/store-image.jpg");
+    width: 100%;
+    height: 75vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+} 
