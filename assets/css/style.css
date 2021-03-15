@@ -4,10 +4,9 @@ html, body {
     overflow-x: hidden;
 }
 
+/* ----------------------------------- color */
 
- /* ----------------------------------- color */
-
- .bg-color {
+.bg-color {
     background-color: #fbe7c6;
 }
 
@@ -15,15 +14,10 @@ html, body {
 
 .text-justify {
     text-align: justify;
- }
+}
 
- .text-align-center {
+.text-align-center {
      text-align: center;
- }
-
-.asterisk-required {
-    color: red;
-    font-weight: bold;
 }
 
 .margin-bottom-title {
@@ -50,6 +44,14 @@ html, body {
     margin-top: 1.2rem;
 }
 
+/*  ----------------------------------- horizontal line*/
+
+.block-divider {
+    background-color: #ef929bc2;
+    width: 10rem;
+    margin: 3.5rem auto 3.5rem auto;
+}
+
 /* ----------------------------------- navbar */
 
 .navbar {
@@ -69,11 +71,12 @@ html, body {
   color: #e8a831b8;
 }
 
-.name-brand + p{
+.name-brand + p {
     font-family: "Alegreya", sans-serif;
     font-style: italic;
     font-weight: 600;
 }
+
 .navbar-nav .nav-link {
     color: #343a40; 
     font-family: "Crimson pro", sans-serif;
@@ -84,14 +87,14 @@ html, body {
   .navbar-nav {
     margin-left: auto;
     margin-right: 0;
-  }
+    }
 }
 
 @media screen and (min-width: 800px) {
   .navbar-nav {
     margin-left: auto;
     margin-right: 10rem;
-}
+    }
 }
 
 .navbar-menu-icon { 
@@ -110,100 +113,13 @@ html, body {
   color: #343a40;
 }
 
-
-/* ------------------------------------------------------------------ home page*/
-
-/* ------------------ hero image*/
-
-#hero-image {
-    background-image: url("../images/background-image.jpg");
-    width: 100%;
-    height: 60vh; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-} 
-
-@media screen and (min-width: 768px) {
-    #hero-image {
-      height: 80vh;   
-    }
-}
-
-@media screen and (min-width: 992px) {
-    #hero-image {
-      height: 95vh;   
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    #hero-image {
-      height: 115vh;   
-    }
-}
-
-#hero-text {
-    text-align: center;
-    color: white;
-    padding-top: 5.5rem;
-} 
-
-@media screen and (min-width: 576px) {
-    #hero-text > h1 {
-    padding-top: 2.5rem;
- }
-}
-
-@media screen and (min-width: 768px) {
-    #hero-text > h1 {
-    padding-top: 5rem;
- }
-}
-
-#hero-text > h1 {
-    font-size: 1.6rem;
-}
-
-
-@media screen and (min-width: 576px) {
-    #hero-text > h1 {
-        font-size: 3rem;
-        font-weight: 400;
- }
-}
-
-@media screen and (min-width: 992px) {
-    #hero-text > h1 {
-        font-size: 4rem;
- }
-}
-
-.bg-opaque {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.48);
-}
-
-@media screen and (min-width: 768px) {
-    #hero-text p {
-      font-size: 1.2rem; 
-      font-weight: 500;  
-    }
-}
-
-
-/* ------------------ Footer*/
-
+/* ----------------------------------- Footer*/
 
 footer {
     margin-top: 4.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;;
 }
-
 
 #footer-details {
     padding: 30px 10px 10px 10px;
@@ -242,8 +158,90 @@ footer {
     }
 }
 
+/* ------------------------------------------------------------------ home page*/
 
-/* ------------------ subscription input email*/
+/*hero image*/
+
+#hero-image {
+    background-image: url("../images/background-image.jpg");
+    width: 100%;
+    height: 60vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+} 
+
+@media screen and (min-width: 768px) {
+    #hero-image {
+      height: 80vh;   
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #hero-image {
+      height: 95vh;   
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-image {
+      height: 115vh;   
+    }
+}
+
+#hero-text {
+    text-align: center;
+    color: white;
+    padding-top: 5.5rem;
+} 
+
+@media screen and (min-width: 576px) {
+    #hero-text > h1 {
+    padding-top: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #hero-text > h1 {
+    padding-top: 5rem;
+    }
+}
+
+#hero-text > h1 {
+    font-size: 1.6rem;
+}
+
+
+@media screen and (min-width: 576px) {
+    #hero-text > h1 {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #hero-text > h1 {
+        font-size: 4rem;
+    }
+}
+
+.bg-opaque {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+@media screen and (min-width: 768px) {
+    #hero-text p {
+      font-size: 1.2rem; 
+      font-weight: 500;  
+    }
+}
+
+/* subscription input email*/
 
 .subscription-email {
     text-align: center;
@@ -254,8 +252,6 @@ footer {
     margin-top: 20px;
     margin-left:0;
 }
-
-
 
 @media screen and (min-width: 768px) {
     .suscribe-button {
@@ -274,21 +270,11 @@ footer {
     padding-right: 0;
 }
 
-#checkbox-marketing-email{
+#checkbox-marketing-email {
     font-size: 12px;
 }
 
-
-/* ------------------ horizontal line*/
-
-.block-divider {
-    background-color: #ef929bc2;
-    width: 10rem;
-    margin: 3.5rem auto 3.5rem auto;
-}
-
-
-/* ------------------ explanation patisserie and viennoiserie*/
+/* explanation patisserie and viennoiserie*/
 
 .info-pastry {
     text-align: center;
@@ -310,12 +296,12 @@ footer {
     margin: auto 10px auto 10px;
 }
 
-
-/* ------------------ information order store and online*/
+/* information order store and online*/
 
 #info-order {
     margin-top: -15px;
 }
+
 .order-requirement {
     text-align: center;
     height: 10rem;
@@ -325,9 +311,7 @@ footer {
     padding-top: 1rem;
 }
 
-
 /* ------------------------------------------------------------------ patisserie and viennoiserie page*/
-
 
 .margin-title-product {
     margin-top: 7rem;
@@ -355,7 +339,6 @@ footer {
     }
 }
 
-
 .description-product {
     font-size: 0.9rem;
 }
@@ -365,7 +348,6 @@ footer {
     font-weight: 600;
     font-style: italic;
     color: #808080bf;
-
 }
 
 .info-allergens {
@@ -377,7 +359,6 @@ footer {
 .margin-product {
     margin-bottom: 3.5rem;
 }
-
 
 /* ------------------------------------------------------------------ order form*/
 
@@ -394,11 +375,15 @@ footer {
     text-align: center;
 }
 
+.asterisk-required {
+    color: red;
+    font-weight: bold;
+} 
+
 .customer-info {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-
 
 .list-product {
     font-size: 12px;
@@ -419,7 +404,6 @@ footer {
     font-size: 14px;
     }
 }
-
 
 .list-product label {
     width: 4.8rem;
@@ -461,10 +445,11 @@ footer {
    color: #808080bf;
 }
 
-input[type=radio]:checked ~ .info-hidden{
+input[type=radio]:checked ~ .info-hidden {
     display: block;
 }
-.info-hidden{
+
+.info-hidden {
     display: none;
 }
 
@@ -487,11 +472,66 @@ input[type=date], input[type=time] {
 
 /* ------------------------------------------------------------------ Our store*/
 
+@media screen and (min-width: 992px) {
+    #info-shop {
+    margin-top: 8rem;
+    }
+}
+
 #store-image {
     background-image: url("../images/store-image.jpg");
     width: 100%;
-    height: 75vh; 
+    height: 60vh; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
 } 
+
+@media screen and (min-width: 768px) {
+    #store-image {
+    margin-bottom: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .img-pastry-chef {
+    height:300px;
+    width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .img-pastry-chef {
+    width: 100%;
+    }
+}
+
+#info-pastry-chef {
+    font-size:14px;
+}
+
+@media screen and (min-width: 485px) {
+    #info-pastry-chef{
+    font-size: 16px;
+    margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #location-shop{
+    margin-top: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #location-shop{
+    margin-top: 5.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    iframe {
+    height: 300px;
+    }
+}
+
