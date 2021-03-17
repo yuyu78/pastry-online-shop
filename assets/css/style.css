@@ -125,6 +125,12 @@ footer {
     padding: 30px 10px 10px 10px;
 }
 
+@media screen and (min-width: 768px) {
+    footer .name-brand{
+    font-size: 2rem;
+    }
+}
+
 .fa-facebook-square,
 .fa-instagram, 
 .fa-twitter-square,
