@@ -189,6 +189,12 @@ footer {
     }
 }
 
+@media screen and (min-height: 1366px) {
+    #hero-image {
+      height: 75vh;   
+    }
+}
+
 #hero-text {
     text-align: center;
     color: white;
