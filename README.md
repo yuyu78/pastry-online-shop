@@ -1,6 +1,6 @@
 # Yuki Ishii
 
-## Un Delice
+## A French pastry online shop "Un Delice"
 
 The aim of this project is to create a website of French pastry shop, located in Dublin.
 The business is selling 2 types of product:
@@ -10,9 +10,46 @@ The business is selling 2 types of product:
 The design of the website is simple and clear so that the customer can navigate and read easily all the informations in each different page.
 The customer can choose between two options to receive the order: collection at store or delivery.
 
+---
 ## UX
+---
 
-### User Stories
+### Strategy plane
+
+The main goal of the website is to make known the French pastry in Ireland by building a online shop site.
+The business targets potentials clients who are living in Dublin or passing in the city.
+
+
+#### The Ideal clients: 
+* Clients who like desert, sweet.
+* Clients from France living in Dublin and want to find French pastry shop.
+* Clients who want to discover new type of pastry.
+* Clients who are living within Dublin 1 and 24 or visitor, tourist who are currently in this area.
+
+
+#### The goal & need of the client:
+**Goal**:
+* Get easily and clear information about the shop on all devices.
+* Make a purchase in few steps 
+
+**Need**:
+* Know what contain the product, the flavor, the allergen and the price.
+* Information about ordering process: the collection and delivery option, the contact details, location.
+* Find the social media link to stay up to date.
+
+
+#### The goal & need of the business:
+**Goal**:
+* Promote the shop, make known the French pastry.
+* Provide good experience in order to keep customer
+* Increase customers 
+
+**Need**:
+* Advertise the product through the website and social media. 
+* Provide clear information in the website for good user experience.
+
+
+#### User Stories
 * As a first time visitor, I want information about the French pastry.
 * As a first time visitor, I want to view the list of pastry available.
 * As a first time visitor, I want to easily navigate the site and get clear information.
@@ -22,28 +59,7 @@ The customer can choose between two options to receive the order: collection at 
 * As a retuning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
 
 
-### The Ideal clients: 
-* clients who like desert, sweet.
-* clients from France living in Dublin and want to find French pastry shop.
-* clients who want to discover new type of pastry.
-* clients who are living within Dublin 1 and 24 or visitor, tourist who are currently in this area.
-
-
-### The goal & need of the client:
-The goal is to have easy and clear information about the shop through the website and make purchase in few steps.
-
-The client needs to know what contain the product, the flavor, the allergen and the price.
-The customer need also information about ordering process, the collection and delivery option, the contact details, location.
-
-
-### The goal & need of the business:
-The goal of the business is to promote the shop, make known the French pastry in Dublin.
-
-The business needs to advertise the product through the website and social media. 
-The business has to provide clear information for good user experience.
-
-
-### Wireframe
+#### Wireframe
 
 [Home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Home%20page.pdf)
 
