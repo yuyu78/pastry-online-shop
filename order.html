@@ -44,6 +44,7 @@
             </div>
         </nav>
     </header>
+
     <section class="container info-collection-delivery">
         <p>For the collection option from store, you can select times between 8am-11am and 1pm-6pm.<br>
             For the delivery, we can ship within dublin 1-24, there will be 2 euros fee except for your first order. To
@@ -52,40 +53,40 @@
             Order 48 hours minimum before the day selected.</p>
     </section>
 
-    <!--form -->
+    <!--Form -->
     <form class="container" action="" method="post">
         <div class="margin-top-form">
             <h1>Order details</h1>
             <h5 class="customer-info">Your information</h5>
         </div>
 
-        <!--customer details -->
+        <!--Customer details -->
         <div class="form-row">
             <div class="col-md-6 mb-3">
                 <label for="fname">First name <span class="asterisk-required">*</span></label>
-                <input type="text" class="form-control" id="fname" required>
+                <input type="text" class="form-control" id="fname">
             </div>
             <div class="col-md-6 mb-3">
                 <label for="lname">Last name <span class="asterisk-required">*</span></label>
-                <input type="text" class="form-control" id="lname" required>
+                <input type="text" class="form-control" id="lname">
             </div>
         </div>
         <div class="form-row">
             <div class="col-md-6 mb-3">
                 <label for="email">Email address <span class="asterisk-required">*</span></label>
-                <input type="email" class="form-control" id="email" required>
+                <input type="email" class="form-control" id="email">
             </div>
             <div class="col-md-6 mb-3">
                 <label for="phone">Phone number <span class="asterisk-required">*</span></label>
-                <input type="tel" class="form-control" id="phone" required>
+                <input type="tel" class="form-control" id="phone">
             </div>
         </div>
 
         <hr class="block-divider">
 
-        <!--product selected -->
+        <!--Product selected -->
         <div class="margin-bottom-title ">
-        <!--patisserie-->
+            <!--patisserie-->
             <h5>Patisserie</h5>
             <p><a href="patisserie.html" target="_blank">Click here for more information about our pastry.</a></p>
         </div>
@@ -188,7 +189,7 @@
                 </div>
             </div>
         </div>
-        <!--viennoiserie-->
+        <!--Viennoiserie-->
         <div class="margin-bottom-title ">
             <h5>Viennoiserie</h5>
             <p><a href="viennoiserie.html" target="_blank">Click here for more information about our viennoiserie.</a>
@@ -287,15 +288,15 @@
 
         <hr class="block-divider">
 
-        <!--collection or delivery -->
+        <!--Collection or Delivery -->
         <div class="margin-bottom-title ">
             <h5>Collection or Delivery</h5>
             <p id="collection-delivery-required">Select between the 2 options below <span
                     class="asterisk-required">*</span></p>
         </div>
 
-        <div class="row"> 
-            <!--collection -->
+        <div class="row">
+            <!--Collection -->
             <div class="col-12 col-lg-6 mb-4 mb-md-5">
                 <input type="radio" name="selection" id="reveal-collection" role="button">
                 <label for="reveal-collection" class="mb-4">Collection at store</label>
@@ -303,17 +304,17 @@
                     <div class="col">
                         <div>
                             <label for="collection-date" class="col pl-0">Date:</label>
-                            <input type="date" name="collection-date" id="collection-date" class="pl-2" required />
+                            <input type="date" name="collection-date" id="collection-date" class="pl-2"/>
                         </div>
                         <div>
                             <label for="collection-time" class="col pl-0">Time:</label>
-                            <input type="time" name="collection-time" id="collection-time" class="pl-2" min="08:00" max="18:00"
-                                required />
+                            <input type="time" name="collection-time" id="collection-time" class="pl-2" min="08:00"
+                                max="18:00"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--delivery -->
+            <!--Delivery -->
             <div class="col-lg-6 col mb-4 mb-md-5">
                 <input type="radio" name="selection" id="reveal-delivery" role="button">
                 <label for="reveal-delivery" class="mb-4">Delivery</label>
@@ -321,17 +322,17 @@
                     <div class="col">
                         <div>
                             <label for="delivery-date" class="col pl-0">Date:</label>
-                            <input type="date" name="codelivery-date" id="delivery-date" class="pl-2" required />
+                            <input type="date" name="codelivery-date" id="delivery-date" class="pl-2"/>
                         </div>
                         <div>
                             <label for="delivery-time" class="col pl-0">Time:</label>
-                            <input type="time" name="delivery-time" id="delivery" class="pl-2" min="08:00" max="18:00" required />
+                            <input type="time" name="delivery-time" id="delivery" class="pl-2" min="08:00" max="18:00"/>
                         </div>
-                        <div class= "mt-5">
+                        <div class="mt-5">
                             <h5 class="mb-4">Shipping address</h5>
                             <div class="mb-4">
                                 <label for="street">Street <span class="asterisk-required">*</span></label>
-                                <input type="text" class="form-control" id="street" required>
+                                <input type="text" class="form-control" id="street">
                             </div>
                             <div class="mb-4">
                                 <label for="street2">Street Line 2</label>
@@ -339,26 +340,53 @@
                             </div>
                             <div class="row">
                                 <div class="mb-4 col-md-6">
-                                    <label for="postal-code">Postal Code <span class="asterisk-required">*</span></label>
-                                    <input type="text" class="form-control" id="postal-code" required>
+                                    <label for="postal-code">Postal Code <span
+                                            class="asterisk-required">*</span></label>
+                                    <input type="text" class="form-control" id="postal-code">
                                 </div>
                                 <div class="mb-4 col-md-6">
                                     <label for="City">City <span class="asterisk-required">*</span></label>
-                                    <input type="text" class="form-control" id="city" required>
+                                    <input type="text" class="form-control" id="city" >
                                 </div>
                             </div>
                             <div class="mb-4">
                                 <label for="additional-info">Additional Info</label>
-                                <input type="text" class="form-control" id="additional-info" required>
+                                <input type="text" class="form-control" id="additional-info">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--button confirmation order-->
+
+        <!--Button confirmation order-->
         <div id="confirm-order">
-        <button type="submit" class="btn btn-color">Confirm your order</button>
+            <button type="button" class="btn btn-color" data-toggle="modal"
+                data-target="#confirmationModalCenter">Confirm your order</button>
+        </div>
+
+        <!--Modal confirmation order-->
+        <div class="modal fade" id="confirmationModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="confirmationModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="confirmationModalCenterTitle">Thank you for your order!</h5>
+                        <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>You will receive a confirmation email of your order shortly.</p>
+                        <p>Hope you enjoy our French product and can´t wait to see you soon.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="index.html">
+                        <button type="button" class="btn btn-secondary">Close</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 
@@ -382,7 +410,7 @@
             <div class="col-12 col-sm-3">
                 <h5>Location</h5>
                 <p>1a Capel Street, North City<br>
-                    Dublin 1, D01 F593 
+                    Dublin 1, D01 F593
                     <a target="_blank" href="https://www.google.com/maps">
                         <i class="fas fa-map-marked-alt" aria-hiden="true"></i>
                         <span class="sr-only">Gooogle maps</span>
