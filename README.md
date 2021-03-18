@@ -58,19 +58,48 @@ The business targets potentials clients who are living in Dublin or passing in t
 
 #### Features
 
-##### Home
+##### Existing features
+* A navigation bar in all the pages with the name of the shop on the left and on the right four clickable option: **Home**, **our product** with the dropdown giving the option to choose patisserie and viennoiserie, **order online** and **our store**.
+The navigation bar is fixed so it keeps displaying when the user scroll down.
+On the mobile device, the content of the navbar is hidden and will be displayed if the click on the icon.
+
+* A footer in each page: from the left, the name of the business, the contact details, the location and social medial link.   
+On the mobile device, the name of the business is not displayed.
+
+* In the home page, a subscription button in order to get delivery free in the first order by entering the email address and the customer has option to agree to receive marketing email.
+
+* In the home page, a link "our selection" under the patisserie and viennoiserie info to direct to the page of the type of product selected.
+
+* The patisserie and viennoiserie page allow the customer to view the product available with brief information with the price and allergens.
+
+* The order online page allows the customer to order by filling in a form with the customer details, product selected, and option to choose collection and delivery.
+
+* When the customer chooses between collection and delivery option in the order form, it allows to choose a date and time in both option and in the delivery option, the customer can enter the a delivery address.
+
+* In the store page, the customer can view the picture of the shop and the pastry chef. There is a google map with the address of the shop and opening hour.
+
+##### Features Left to Implement
+* Add shopping cart and payment option instead of the form to make the order easier: Javascript or PHP needed
+
+* FAQ pages to get all important information needed: Javascript or PHP needed
+
+* Create a search bar so if the customer types keyword, it will appear several choice of page related to this keyword: Javascript needed
+
+### Structure plane
+
+#### Home
 In the home page on the top, in order to make a first good impression, it has a the full width image with a minimal sentence in the middle so that the website is more catchy and compelling.  
-Underneath, an input for email address with a suscribe button. For the marketing aim,the business want to offer free delivery on the first order. When the user click on the suscribe button, a modal message will display with the option to receive marketing communication if the user want. 
-There will be a brief description about the patisserie and viennoiserie.  
+Underneath, an input for email address with a suscribe button. For the marketing aim,the business want to offer free delivery on the first order. When the user click on the suscribe button, a modal message will display with the option to receive marketing communication if the user want.   
+Below, there is a brief description about the patisserie and viennoiserie.  
 At the end, a brief explanation about the delivery.
 
-##### Our product (2 pages)
-By clicking on **our product** in the navbar, it will appear two option clickables: the patisserie and viennoiserie and will load the page selected.
+#### Our product (2 pages)
+By clicking on **our product** in the navbar, it displays two option clickables: the patisserie and viennoiserie and will load the page selected.
 The layout of these two pages are the same. The list of product will be displayed in three columns on desktop and Ipad pro.
 On mobile device and Ipad, it will show two columns.
 In each product, there will be the image, the price, the flavor, taste and the allergen.
 
-##### Order online
+#### Order online
 On the top of this page, an explanation about ordering process and collection, delivery option.
 
 Underneath, a form of the order details: 
@@ -83,21 +112,11 @@ Both option contains hidden div, so if the customer select delivery option, it w
 
 When the customer will confirm the order, it will display a modal message. By clicking to the button close of the modal, it will redirect to the home page.
 
-##### Our store
+#### Our store
 In this page, one picture of the shop and one picture of the pastry chef. Under the picture of the pastry chef, a brief explanation about this chef and the shop.
 Above, it displays google map with the address of the shop including the opening hours.
 
-
-#### Existing features
-In each page:
-* A navigation bar with the name of the shop on the left and on the right there will be four clickable option: **Home**, **our product** with the dropdown giving the option to choose patisserie and viennoiserie, **order online** and **our store**.
-The navigation bar will be fixed so it will keep displaying when the user scroll down.
-On the mobile device, the component of the navigation bar will collapse.
-* A footer will also be displayed in each page: from the left, the name of the business, the contact details, the location and social medial link.
-Each pages are responsives on all device sizes.
-The navigation bar and the footer will appear in all the page except the confirmation order.
-
-* A modal component from bootstrap, when the customer enter the email address and suscribe.
+### Skeleton plane
 
 #### Wireframe
 
@@ -113,6 +132,26 @@ The navigation bar and the footer will appear in all the page except the confirm
 
 [Confirmation order](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Confirmation%20order.pdf)
 
+At the beginning of the project, the plan was to create a confirmation order page separately when the customer submit the order but because Javascript is needed, instead, a modal message has been used so that when the customer click on "confirm order", it will display the modal message for the confirmation purchase.
+
+### Surface plane
+
+#### Color Scheme
+The main colors of the website are: 
+* White
+* Beige for the background color of the navbar and footer
+* Orange-brown for the name of the brand "Un Delice"
+
+For the pastry website, the choice of theses colors are justified by an easier and clear navigation for the customer and highlight the products.
+
+#### Typography 
+* **Poppins** in all the page in general
+* **Parisienne** for the name of the shop
+* **Crimson Pro** for the navbar 
+* **Alegreya** at the end on the footer on "French Pastry"
+
+#### Imagery
+All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 ## Technologies Used
 * HTML and CSS
