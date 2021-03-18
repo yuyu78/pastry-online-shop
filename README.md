@@ -19,13 +19,11 @@ The customer can choose between two options to receive the order: collection at 
 The main goal of the website is to make known the French pastry in Ireland by building a online shop site.
 The business targets potentials clients who are living in Dublin or passing in the city.
 
-
 #### The Ideal clients: 
 * Clients who like desert, sweet.
 * Clients from France living in Dublin and want to find French pastry shop.
 * Clients who want to discover new type of pastry.
 * Clients who are living within Dublin 1 and 24 or visitor, tourist who are currently in this area.
-
 
 #### The goal & need of the client:
 **Goal**:
@@ -37,7 +35,6 @@ The business targets potentials clients who are living in Dublin or passing in t
 * Information about ordering process: the collection and delivery option, the contact details, location.
 * Find the social media link to stay up to date.
 
-
 #### The goal & need of the business:
 **Goal**:
 * Promote the shop, make known the French pastry.
@@ -48,7 +45,6 @@ The business targets potentials clients who are living in Dublin or passing in t
 * Advertise the product through the website and social media. 
 * Provide clear information in the website for good user experience.
 
-
 #### User Stories
 * As a first time visitor, I want information about the French pastry.
 * As a first time visitor, I want to view the list of pastry available.
@@ -58,6 +54,50 @@ The business targets potentials clients who are living in Dublin or passing in t
 * As a interested client, I want to get information about the shop, the contact details, the location, the opening hour.
 * As a retuning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
 
+### Scope plane
+
+#### Features
+
+##### Home
+In the home page on the top, in order to make a first good impression, it has a the full width image with a minimal sentence in the middle so that the website is more catchy and compelling.  
+Underneath, an input for email address with a suscribe button. For the marketing aim,the business want to offer free delivery on the first order. When the user click on the suscribe button, a modal message will display with the option to receive marketing communication if the user want. 
+There will be a brief description about the patisserie and viennoiserie.  
+At the end, a brief explanation about the delivery.
+
+##### Our product (2 pages)
+By clicking on **our product** in the navbar, it will appear two option clickables: the patisserie and viennoiserie and will load the page selected.
+The layout of these two pages are the same. The list of product will be displayed in three columns on desktop and Ipad pro.
+On mobile device and Ipad, it will show two columns.
+In each product, there will be the image, the price, the flavor, taste and the allergen.
+
+##### Order online
+On the top of this page, an explanation about ordering process and collection, delivery option.
+
+Underneath, a form of the order details: 
+* On the first part, the details of the customer.
+* On the second part, a input number beside the name of the product in order to select the amount. 
+Under the patisserie and viennoiserie, a link to direct to the list of the product page into the new browser.
+So if the customer don´t remember how the product looks like, by clicking on the link, the customer can check again to be sure about the product selected.
+* At the end of the form, the customer has to select between the collection or delivery option. 
+Both option contains hidden div, so if the customer select delivery option, it will appear the date, time and address to fill out. If the collection option is selected, it only appear the date and time to choose.
+
+When the customer will confirm the order, it will display a modal message. By clicking to the button close of the modal, it will redirect to the home page.
+
+##### Our store
+In this page, one picture of the shop and one picture of the pastry chef. Under the picture of the pastry chef, a brief explanation about this chef and the shop.
+Above, it displays google map with the address of the shop including the opening hours.
+
+
+#### Existing features
+In each page:
+* A navigation bar with the name of the shop on the left and on the right there will be four clickable option: **Home**, **our product** with the dropdown giving the option to choose patisserie and viennoiserie, **order online** and **our store**.
+The navigation bar will be fixed so it will keep displaying when the user scroll down.
+On the mobile device, the component of the navigation bar will collapse.
+* A footer will also be displayed in each page: from the left, the name of the business, the contact details, the location and social medial link.
+Each pages are responsives on all device sizes.
+The navigation bar and the footer will appear in all the page except the confirmation order.
+
+* A modal component from bootstrap, when the customer enter the email address and suscribe.
 
 #### Wireframe
 
@@ -72,51 +112,6 @@ The business targets potentials clients who are living in Dublin or passing in t
 [Our store](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Our%20store.pdf)
 
 [Confirmation order](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Confirmation%20order.pdf)
-
-
-## Features
-
-
-#### Home
-In the home page on the top, the full width image with a simple sentence in the middle. 
-Underneath, for the marketing aim, the business will offer free delivery on the first order. A modal component will will display with the option to receive marketing communication. 
-There will be a brief description about the patisserie and viennoiserie.
-At the end, a brief explanation about the delivery.
-
-#### Our product
-By clicking on the component *our product*, it will appear two option clickable: the patisserie and viennoiserie. and will load the page selected.
-The layout of these two pages are the same. The list of product will be displayed in three columns on desktop and tablet.
-On mobile device, it will show two columns.
-
-#### Order online
-On the top of this page, an explanation about ordering process and collection, delivery option.
-Underneath, a form of the order details: 
-On the first part, the details of the customer.
-
-On the second part, a input number beside the name of the product in order to select the amount. 
-Under the patisserie and viennoiserie, a link to direct to the list of the product page into the new browser.
-So if the customer don´t remember how the product looks like, by clicking on the link, the customer can check again to be sure about the product selected.
-
-At the end of the form, the customer has to select between the collection or delivery option. 
-Both option contains hiddent div, so if the customer select delivery option, it will appear the date, time and address to fill out. If the collection option is selected, it only appear the date and time to choose.
-
-#### Confirmation order
-When the customer will confirm the order, it will load a confirmation order page.
-In general, when the customers made an order, they will not come back for a while so for this reason, the navigation bar and the footer are removed.
-In order to invite the customer to return to the online shop, the business want to focus on following on social media. 
-On the bottom, a link is provided to go back to the home page.
-
-
-### Existing features
-In each page (except the confirmation order):
-* A navigation bar with the name of the shop on the left and on the right there will be four clickable option: **Home**, **our product** with the dropdown giving the option to choose patisserie and viennoiserie, **order online** and **our store**.
-The navigation bar will be fixed so it will keep displaying when the user scroll down.
-On the mobile device, the component of the navigation bar will collapse.
-* A footer will also be displayed in each page: from the left, the name of the business, the contact details, the location and social medial link.
-Each pages are responsives on all device sizes.
-The navigation bar and the footer will appear in all the page except the confirmation order.
-
-* A modal component from bootstrap, when the customer enter the email address and suscribe.
 
 
 ## Technologies Used
