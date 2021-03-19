@@ -22,11 +22,6 @@ html, body {
      text-align: center;
 }
 
-.margin-bottom-title {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
 @media screen and (min-width: 576px) {
     p {
     line-height: 1.7rem;
@@ -348,7 +343,6 @@ footer {
 
 .margin-top-form {
     margin-top: 5rem;
-    text-align: center;
 }
 
 .asterisk-required {
@@ -356,16 +350,9 @@ footer {
     font-weight: 600;
 } 
 
-.customer-info {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
 .list-product {
-    font-size: 12px;
-    margin-bottom:4rem;
+    font-size: 0.9rem;
 }
-
 .list-product input {
     width: 2.4rem;
 }
@@ -382,37 +369,31 @@ footer {
 }
 
 .list-product label {
-    width: 4.8rem;
+    width: 5.3rem;
     text-align: right;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-height: 640px) {
     .list-product label {
-    width: 6.5rem;
+    width:6.5rem;
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-height: 731px) {
     .list-product label {
-    width: 9rem;
+    width:7.8rem;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-height: 812px) {
     .list-product label {
-    width: 8rem;
+    width:7rem;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-height: 937px) {
     .list-product label {
-    width: 8rem;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .list-product label {
-    width:10rem;
+    width:9rem;
     }
 }
 
