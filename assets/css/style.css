@@ -3,6 +3,7 @@
 html, body {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
+    font-size:1rem;
 }
 
 /* ----------------------------------- color */
@@ -178,47 +179,34 @@ footer {
     position: relative;
 } 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-height: 812px) {
     #hero-image {
-      height: 80vh;   
+    height: 50vh;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-height: 992px) {
     #hero-image {
-      height: 95vh;   
+    height: 70vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #hero-image {
+    height: 70vh;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #hero-image {
-      height: 115vh;   
-    }
-}
-
-@media screen and (min-height: 1366px) {
-    #hero-image {
-      height: 75vh;   
+    height: 95vh;
     }
 }
 
 #hero-text {
-    text-align: center;
     color: white;
     padding-top: 5.5rem;
 } 
-
-@media screen and (min-width: 576px) {
-    #hero-text > h1 {
-    padding-top: 2.5rem;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    #hero-text > h1 {
-    padding-top: 5rem;
-    }
-}
 
 #hero-text > h1 {
     font-size: 1.6rem;
@@ -232,7 +220,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     #hero-text > h1 {
         font-size: 4rem;
     }
@@ -261,26 +249,12 @@ footer {
     margin-top: 35px;
 }
 
-.suscribe-button {
-    margin-top: 20px;
-    margin-left:0;
+.subscription-email input {
+    height: 35px;
 }
 
-@media screen and (min-width: 768px) {
-    .suscribe-button {
-    margin-top: 20px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .suscribe-button {
-    margin-top: 0px;
-    }
-}
-
-.subscribe-text-align {
-    font-size: 1.1rem;
-    padding-right: 0;
+.subscription-email button {
+    height: 35px;
 }
 
 #checkbox-marketing-email {
@@ -292,7 +266,6 @@ footer {
 .info-pastry {
     text-align: center;
     margin-top: 20px;
-    font-size: 1.1rem; 
 }
 
 @media screen and (min-width: 992px) {
