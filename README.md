@@ -154,13 +154,21 @@ For the pastry website, the choice of theses colors are justified by an easier a
 All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 ## Technologies Used
-* HTML and CSS
-* Github and Gitpod
-* Bootstrap version 4.3.1
-* Jquery
-* Google fonts
-* Google Chrome Dev tools
+---
+* **HTML5** and **CSS3** programming languages.
+* [Git](https://git-scm.com/) for version control
+* [Github](https://github.com/) to store repositories.
+* [Gitpod](https://www.gitpod.io/), an IDE to edit the code.  
+* [Bootstrap](https://getbootstrap.com/) version 4.3.1, a framework to make the website responsive in easy way.
+* [Jquery](https://jquery.com/) and [Popper JS](https://popper.js.org/) to use navbar, dropdown and modal from bootstrap 
+* [Google fonts](https://fonts.google.com/) to choose font family for the website 
+* **Google Chrome Dev tools** to fix bug
+* [HTML Validator](https://validator.w3.org/) to validate HTML codeç
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code
+
 ## Testing
+---
+
 
 ## Deployment
 
