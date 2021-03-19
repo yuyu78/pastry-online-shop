@@ -27,6 +27,13 @@ html, body {
     margin-bottom: 3rem;
 }
 
+@media screen and (min-width: 576px) {
+    p {
+    line-height: 1.7rem;
+    }
+}
+
+
 /* ----------------------------------- button */
 .btn-color {
     color: #000;
@@ -263,10 +270,18 @@ footer {
 
 /* explanation patisserie and viennoiserie*/
 
-.info-pastry {
-    text-align: center;
-    margin-top: 20px;
+@media screen and (min-width: 992px) {
+    .info-pastry {
+        margin-top: 5rem!important;
+    }
 }
+
+@media screen and (min-width: 1200px) {
+    .info-pastry {
+        margin-top: 6.5rem!important;
+    }
+}
+/*
 
 @media screen and (min-width: 992px) {
     .info-pastry {
@@ -281,6 +296,7 @@ footer {
 .info-pastry p {
     margin: auto 10px auto 10px;
 }
+*/
 
 /* information order store and online*/
 
