@@ -120,17 +120,17 @@ Above, it displays google map with the address of the shop including the opening
 
 #### Wireframe
 
-[Home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Home%20page.pdf)
+[Home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/home-page.pdf)
 
-[Subcription home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Subscription%20home%20page.pdf)
+[Subcription home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/subscription-home-page.pdf)
 
-[Product page: Patisserie and Viennoiserie](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Our%20product%20dropdown%20patisserie%20viennoiserie.pdf)
+[Product page: Patisserie and Viennoiserie](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/our-product-dropdown-patisserie-viennoiserie.pdf)
 
-[Order online form](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Order%20online%20form.pdf)
+[Order online form](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/order-online-form.pdf)
 
-[Our store](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Our%20store.pdf)
+[Our store](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/our-store.pdf)
 
-[Confirmation order](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/Confirmation%20order.pdf)
+[Confirmation order](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/confirmation-order.pdf)
 
 At the beginning of the project, the plan was to create a confirmation order page separately when the customer submit the order but because Javascript is needed, instead, a modal message has been used so that when the customer click on "confirm order", it will display the modal message for the confirmation purchase.
 
@@ -158,7 +158,7 @@ All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](htt
 * **HTML5** and **CSS3** programming languages.
 * [Git](https://git-scm.com/) for version control
 * [Github](https://github.com/) to store repositories.
-* [Gitpod](https://www.gitpod.io/), an IDE to edit the code.  
+* [Gitpod](https://www.gitpod.io/), for the workspace.  
 * [Bootstrap](https://getbootstrap.com/) version 4.3.1, a framework to make the website responsive in easy way.
 * [Jquery](https://jquery.com/) and [Popper JS](https://popper.js.org/) to use navbar, dropdown and modal from bootstrap 
 * [Google fonts](https://fonts.google.com/) to choose font family for the website 
