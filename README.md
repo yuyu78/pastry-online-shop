@@ -46,13 +46,13 @@ The business targets potentials clients who are living in Dublin or passing in t
 * Provide clear information in the website for good user experience.
 
 #### User Stories
-* As a first time visitor, I want information about the French pastry.
-* As a first time visitor, I want to view the list of pastry available.
-* As a first time visitor, I want to easily navigate the site and get clear information.
-* As an interested client, I want to know the ordering process.
-* As an interested client, I want to know how and when I can receive my order.
-* As a interested client, I want to get information about the shop, the contact details, the location, the opening hour.
-* As a retuning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
+* As a first time visitor, I want information about the French pastry so I know what is the patisserie and viennoiserie.
+* As a first time visitor, I want to view the list of pastry available so I can check the price, the allergens, the flavor.
+* As a first time visitor, I want to easily navigate the site so I can get clear information quickly.
+* As an interested client, I want to know the ordering process so I can receive the product.   
+* As an interested client, I want to know how and when I can receive my order so I can choose between collection or delivery and select a suitable time.
+* As a interested client, I want to get information about the shop so I can check the contact details, the location, the opening hour.
+* As a returning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
 
 ### Scope plane
 
@@ -168,7 +168,7 @@ All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](htt
 
 ## Testing
 ---
-
+The testing process can be found [here]()
 
 ## Deployment
 
