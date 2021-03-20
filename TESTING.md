@@ -57,14 +57,39 @@ In both options, the clients can select a date.
 * Footer in all the pages:  
 1.On Ipad, the email icon and email address were not aligned.  
 To fix the issue, change the font-size of p tag in the footer to 0.9rem.  
-![image](https://user-images.githubusercontent.com/76018052/111865126-80c49080-8965-11eb-94d6-87562aee5088.png)   
-
-2.The social media icon were not displaying because in the head element, the link https://kit.fontawesome.com/47aa28a2ac.js with the kits was used and when searching on the site fontawesome, used the latest version. 
+![image](https://user-images.githubusercontent.com/76018052/111865126-80c49080-8965-11eb-94d6-87562aee5088.png)  
+2.Check if on mobile device, the name of the brand is hidden so that the footer is visually better and not too long vertically.  
+3.The social media icon were not displaying because in the head element, the link https://kit.fontawesome.com/47aa28a2ac.js with the kits was used and when searching on the site fontawesome, used the latest version. 
 The issue was fixed when using the icon from the kits.  
-3.When clicking on the social media icon and the maps in the location, check if it opens a new browser and direct to the page linked.
+4.When clicking on the social media icon and the maps in the location, check if it opens a new browser and direct to the page linked.s¡
 
 * Home page  
 1.On mobile device, there was a little space on the right of the heroe image.  
 ![image](https://user-images.githubusercontent.com/76018052/111877739-edab4b00-89a4-11eb-8ccf-83c3633de0d5.png)  
 To fix the issue, add in CSS in html and body element the code "overflow-x: hidden;".  
-2.Verify if 
+2.Check if the height of the hero image is well adjusted on mobile, Ipad, desktop.  
+3.Verify if the modal message is working.  
+4.Hover over the button "subscribe", "our selection" and check if the color change.  
+5.Check if the button "our selection" under  the patisserie and viennoiserie directs to the correct product page.  
+6.Change the screen on the mobile size and verify if all the information displays vertically in one column.  
+
+* Our product: Patisserie an Viennoiserie  
+1.Check if the layout of both pages are the same.  
+2.Check that there is a space between products so that the page looks clear and not overwhelming.    
+3.Verify in mobile device and Ipad that it displays two columms in each row.  
+The issue was on desktop size, it couldn´t display in three columns as planned. To fix this issue, all the product in the code were put in the same row and the columns were adjusted within the class element with the grid system of bootstrap.
+
+* Order online page  
+1.Check if the form is responsive in all the device, desktop.  
+2.Check if the link under the patisserie and viennoiserie direct to the page related.  
+3.There was an issue in the collection and delivery option, the radio buttons didn´t work correctly.  
+The form order still allowed to choose both option even though the input type was "radio", the aim was to allow to choose only one option. The issue happened because the name of the input were different so change and put the same name of the input collection and delivery (name="selection") to fix the problem.  
+4.Try to submit the form: the modal message is showing correctly but even though there is "required" in the input, it still shows the modal message even though there are some missing field. The javascript is required in this case to allow to submit correclty the form so it will be a feature left to implement for the moment.  
+As alternative, put a red asterisk to show that the fields to fill in are required.  
+5.When clicking on close button in the modal message of the order form, it will direct to the home page. 
+
+* Our store  
+1.Check if on mobile and Ipad, the image of the shop occupy all the width.   
+2.Check if on Ipad pro and desktop size, the image of the shop and the image of the pastry chef including the paragraph display in two columns.  
+3.Check if the google map occupy all the width on mobile.  
+4.Check if on ipad, ipad pro and desktop, the google map and the details shop display in two columns.
