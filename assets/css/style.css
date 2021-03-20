@@ -125,6 +125,10 @@ footer {
     padding-bottom: 1rem;;
 }
 
+footer p {
+    font-size: 0.9rem;
+}
+
 #footer-details {
     padding: 30px 10px 10px 10px;
 }
