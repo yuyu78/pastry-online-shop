@@ -377,9 +377,9 @@ footer p {
     text-align: right;
 }
 
-@media screen and (min-height: 640px) {
+@media screen and (min-height: 625px) {
     .list-product label {
-    width:6.5rem;
+    width:6.3rem;
     }
 }
 
