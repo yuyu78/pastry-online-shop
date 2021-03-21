@@ -1,5 +1,7 @@
 # TESTING French Pastry online shop "Un delice"
 
+## HTML CSS validator
+---
 Checked the validity of the code with [HTML Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) and there were no errors.
 
 However with the code of the [order page](https://github.com/yuyu78/pastry-online-shop/blob/master/order.html), there is a warning about using the heading element h2-h6 to the sections.
@@ -7,6 +9,21 @@ However with the code of the [order page](https://github.com/yuyu78/pastry-onlin
 ![image](https://user-images.githubusercontent.com/76018052/111849799-c7d36700-890e-11eb-9b75-91531d19eac5.png)
 
 Instead of section, the semantic div was replaced so that there is no warning.
+
+## Devices tested
+---
+Devices tested during the project: 
+* Desktop
+* Moto G4 
+* Galaxy S5
+* Pixel 2
+* Pixel 2Xl
+* Iphone 5/SE 
+* Iphone 6/7/8
+* Iphone x
+* Ipad 
+* Ipad Pro
+* Surface Duo
 
 ## Testing User Stories
 ---
