@@ -470,13 +470,13 @@ input[type=date], input[type=time] {
     height: 50vh;
     }
 }
-/*
+
 @media screen and (min-width: 576px) {
     .img-pastry-chef {
     height:400px;
     width: 100%;
     }
-}*/
+}
 
 @media screen and (min-height: 1360px) {
     .img-pastry-chef {
