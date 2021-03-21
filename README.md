@@ -15,7 +15,7 @@ The customer can choose between two options to receive the order: collection at 
 ---
 
 ### Strategy plane
-
+---
 The main goal of the website is to make known the French pastry in Ireland by building a online shop site.
 The business targets potentials clients who are living in Dublin or passing in the city.
 
@@ -55,7 +55,7 @@ The business targets potentials clients who are living in Dublin or passing in t
 * As a returning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
 
 ### Scope plane
-
+---
 #### Features
 
 ##### Existing features
@@ -93,7 +93,7 @@ In order to not submit when there is a missing field, javascript is needed.
 
 
 ### Structure plane
-
+---
 #### Home
 In the home page on the top, in order to make a first good impression, it has a the full width image with a minimal sentence in the middle so that the website is more catchy and compelling.  
 Underneath, an input for email address with a suscribe button. For the marketing aim,the business want to offer free delivery on the first order. When the user click on the suscribe button, a modal message will display with the option to receive marketing communication if the user want.   
@@ -124,7 +124,7 @@ In this page, one picture of the shop and one picture of the pastry chef. Under 
 Above, it displays google map with the address of the shop including the opening hours.
 
 ### Skeleton plane
-
+---
 #### Wireframe
 
 [Home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/home-page.pdf)
@@ -142,7 +142,7 @@ Above, it displays google map with the address of the shop including the opening
 At the beginning of the project, the plan was to create a confirmation order page separately when the customer submit the order but because Javascript is needed, instead, a modal message has been used so that when the customer click on "confirm order", it will display the modal message for the confirmation purchase.
 
 ### Surface plane
-
+---
 #### Color Scheme
 The main colors of the website are: 
 * White
@@ -160,6 +160,7 @@ For the pastry website, the choice of theses colors are justified by an easier a
 #### Imagery
 All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
+---
 ## Technologies Used
 ---
 * **HTML5** and **CSS3** programming languages.
@@ -173,22 +174,60 @@ All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](htt
 * **Google Chrome Dev tools** to fix bug
 * [HTML Validator](https://validator.w3.org/) to validate HTML codeç
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code
-
+* [Grammarly](https://app.grammarly.com/) to check spelling mistake
+---
 ## Testing
 ---
 The testing process can be found [here](https://github.com/yuyu78/pastry-online-shop/blob/master/TESTING.md)
 
+---
 ## Deployment
+---
+Gitpod was used to develop the project and deployed through Github Pages.   
 
+The steps for the deployment of the project:
+
+1. Login to [Github](https://github.com/)  
+2. Click on the green and white icon ont top-right and select "Your repositories"  
+3. From the list of the repositories, select **pastry-online-shop**  
+4. Click on **Settings**  on the right of the menu items  
+5. Scroll down to the **GitHub Pages**  
+6. Under source in the dropdown menu, select **Master**
+7. On the right, select the folder **/(root)**  
+8. Click **Save** and the page will automatically refresh  
+9. Scroll back again to the **GitHub Pages** and click on the link to the deployed site
+
+### To run the project locally  
+
+1. Go to the repository [pastry-online-shop](https://github.com/yuyu78/pastry-online-shop)  
+2. Click to the greeen button **Code** and select **Download ZIP**
+3. Extract the file downloaded to run the project locally
+---
 ## Credits
-To write the Readme file, I was inpired by the [template of Anna Gilhespy](https://files.slack.com/files-pri/T0L30B202-F01MKRU0C00/readme.md) and and from [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
-Some code are inspired from the course Code Institute.
-### Content
-Some codes were taken from stack overflow. 
-The list of social media link in the footer was inpired from the code institue course Mini project resume.
+---
+
+### Inspiration
+* The layout of the homepage is inspired from the pastry site [Dolcesicily](https://shop.dolcesicily.ie/)  and [Thundersbakery](https://thundersbakery.ie/). Both homepage of theses two website start with a hero image with full width. In the website of [Dolcesicily](https://shop.dolcesicily.ie/), the idea of one picture and one paragraph in each row was taken to explain clearly the patisserie and viennoiserie.
+* Inpired from the README and TESTING file template of [Anna Gilhespy](https://github.com/AJGreaves/portrait-artist)
+* Inpired from the template of [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
+* The information of the product were found in wikipedia.
+
+### Code
+* Navbar from [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/)
+* Modal from [Bootstrap](https://getbootstrap.com/docs/4.1/components/modal/)
+* Spacing from [Bootstrap](https://getbootstrap.com/docs/4.1/utilities/spacing/)
+* The social media section on the footer was inspired from the **Code Institute course with the Mini Project with Bootstrap 4**
+* Form from [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/)
+* Solution to remove the space on the right in the home page on mobile device: from [stackoverflow](https://stackoverflow.com/questions/46012482/unwanted-white-space-on-right-side-in-mobile-view/46012924)
+* To display two column on mobile and three column on desktop in the patisserie and viennoiserie page:found solution from [stackoverflow](https://stackoverflow.com/questions/21790409/3-columns-on-desktop-to-2-columns-on-tablet/21790525)
+* To reveal and hide div element with the radio button in the order form, inspired from [stackoverflow](https://stackoverflow.com/questions/21790409/3-columns-on-desktop-to-2-columns-on-tablet/21790525)
+* To fix the issue of th radio button to allow to choose only one option, solution found in [stackoverflow](https://stackoverflow.com/questions/5419459/how-to-allow-only-one-radio-button-to-be-checked/5419479)
 
 ### Media
+All the image are from [Unplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
 
+### Acknowledgment 
 
-### Achnowledgments
-
+* My mentor Miguel who provided advice and feedback during the project
+* All the tutor of Code Institute
+* Code Institute Slack community 
