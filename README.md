@@ -185,6 +185,7 @@ All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](htt
 * [Bootstrap](https://getbootstrap.com/) version 4.3.1, a framework to make the website responsive in easy way.
 * [Jquery](https://jquery.com/) and [Popper JS](https://popper.js.org/) to use navbar, dropdown and modal from bootstrap 
 * [Google fonts](https://fonts.google.com/) to choose font family for the website 
+* [Fontawesome](https://fontawesome.com/) for icon
 * **Google Chrome Dev tools** to fix bug
 * [HTML Validator](https://validator.w3.org/) to validate HTML codeç
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code
