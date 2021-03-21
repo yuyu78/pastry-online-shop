@@ -10,11 +10,25 @@ The business is selling 2 types of product:
 The design of the website is simple and clear so that the customer can navigate and read easily all the informations in each different page.
 The customer can choose between two options to receive the order: collection at store or delivery.
 
----
-## UX
----
+## Table of contents
+1. [UX](#ux)   
+a.[Strategy plane](#strategy-plane)  
+b.[Scope plane](#scope-plane)  
+c.[Structure plane](#structure-plane)   
+d.[Skeleton plane](#skeleton-plane)    
+e.[Surface plane](#surface-plane) 
 
-### Strategy plane
+2. [Technologies used](#technologies-used)  
+
+3. [Testing](#testing)
+
+4. [Deployment](#deployment)
+
+5. [Credits](#credits)
+---
+## UX <a name="ux"></a>
+
+### Strategy plane <a name="strategy-plane"></a>
 ---
 The main goal of the website is to make known the French pastry in Ireland by building a online shop site.
 The business targets potentials clients who are living in Dublin or passing in the city.
@@ -54,7 +68,7 @@ The business targets potentials clients who are living in Dublin or passing in t
 * As a interested client, I want to get information about the shop so I can check the contact details, the location, the opening hour.
 * As a returning customer, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
 
-### Scope plane
+### Scope plane <a name="scope-plane"></a>
 ---
 #### Features
 
@@ -92,7 +106,7 @@ In order to not submit when there is a missing field, javascript is needed.
 
 
 
-### Structure plane
+### Structure plane <a name="structure-plane"></a>
 ---
 #### Home
 In the home page on the top, in order to make a first good impression, it has a the full width image with a minimal sentence in the middle so that the website is more catchy and compelling.  
@@ -123,7 +137,7 @@ When the customer will confirm the order, it will display a modal message. By cl
 In this page, one picture of the shop and one picture of the pastry chef. Under the picture of the pastry chef, a brief explanation about this chef and the shop.
 Above, it displays google map with the address of the shop including the opening hours.
 
-### Skeleton plane
+### Skeleton plane <a name="skeleton-plane"></a>
 ---
 #### Wireframe
 
@@ -141,7 +155,7 @@ Above, it displays google map with the address of the shop including the opening
 
 At the beginning of the project, the plan was to create a confirmation order page separately when the customer submit the order but because Javascript is needed, instead, a modal message has been used so that when the customer click on "confirm order", it will display the modal message for the confirmation purchase.
 
-### Surface plane
+### Surface plane <a name="surface-plane"></a>
 ---
 #### Color Scheme
 The main colors of the website are: 
@@ -161,7 +175,7 @@ For the pastry website, the choice of theses colors are justified by an easier a
 All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 ---
-## Technologies Used
+## Technologies Used <a name="technologies-used"></a>
 ---
 * **HTML5** and **CSS3** programming languages.
 * [Git](https://git-scm.com/) for version control
@@ -176,12 +190,12 @@ All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](htt
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code
 * [Grammarly](https://app.grammarly.com/) to check spelling mistake
 ---
-## Testing
+## Testing <a name="testing"></a>
 ---
 The testing process can be found [here](https://github.com/yuyu78/pastry-online-shop/blob/master/TESTING.md)
 
 ---
-## Deployment
+## Deployment <a name="deployment"></a>
 ---
 Gitpod was used to develop the project and deployed through Github Pages.   
 
@@ -203,7 +217,7 @@ The steps for the deployment of the project:
 2. Click to the greeen button **Code** and select **Download ZIP**
 3. Extract the file downloaded to run the project locally
 ---
-## Credits
+## Credits <a name="credits"></a>
 ---
 
 ### Inspiration
