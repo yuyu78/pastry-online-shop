@@ -110,3 +110,19 @@ As alternative, put a red asterisk to show that the fields to fill in are requir
 2.Check if on Ipad pro and desktop size, the image of the shop and the image of the pastry chef including the paragraph display in two columns.  
 3.Check if the google map occupy all the width on mobile.  
 4.Check if on ipad, ipad pro and desktop, the google map and the details shop display in two columns.
+
+## Lighthouse result 
+* Home page 
+![image](https://user-images.githubusercontent.com/76018052/111905714-5948f300-8a4d-11eb-8bf7-600ac4039a22.png)
+
+* Patisserie page 
+![image](https://user-images.githubusercontent.com/76018052/111905735-7087e080-8a4d-11eb-9001-482a7ee5134a.png)
+
+* Viennoiserie page 
+![image](https://user-images.githubusercontent.com/76018052/111905753-8b5a5500-8a4d-11eb-9037-230d2c020b22.png)
+
+* Order online page 
+![image](https://user-images.githubusercontent.com/76018052/111905773-a927ba00-8a4d-11eb-8d5e-47bd7ca54bb1.png)
+
+* Store page 
+![image](https://user-images.githubusercontent.com/76018052/111905796-c2c90180-8a4d-11eb-98e2-50fddbcde6d9.png)
