@@ -169,7 +169,7 @@ All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](htt
 
 ## Testing
 ---
-The testing process can be found [here]()
+The testing process can be found [here](https://github.com/yuyu78/pastry-online-shop/blob/master/TESTING.md)
 
 ## Deployment
 
