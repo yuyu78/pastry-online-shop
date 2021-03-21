@@ -34,8 +34,8 @@ h2 {
     }
 }
 
-
 /* ----------------------------------- button */
+
 .btn-color {
     color: #000;
     background-color: #eac387;
@@ -450,7 +450,7 @@ input[type=date], input[type=time] {
 #store-image {
     background-image: url("../images/store-image.jpg");
     width: 100%;
-    height: 60vh; 
+    height: 65vh; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -476,17 +476,12 @@ input[type=date], input[type=time] {
 
 @media screen and (min-width: 576px) {
     .img-pastry-chef {
-    height:400px;
+    height:300px;
     width: 100%;
     }
 }
 
 @media screen and (min-height: 1360px) {
-    .img-pastry-chef {
-    height:450px;
-    }
-}
-@media screen and (min-width: 1200px) {
     .img-pastry-chef {
     height:450px;
     }
@@ -503,15 +498,15 @@ input[type=date], input[type=time] {
     }
 }
 
-@media screen and (min-width: 576px) {
-    #info-pastry-chef{
-    margin-top: 6rem;
-    }
-}
-
 @media screen and (min-width: 992px) {
     #info-pastry-chef{
     margin-top: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #info-pastry-chef{
+    margin-top: 2rem;
     }
 }
 
