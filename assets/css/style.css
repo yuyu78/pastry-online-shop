@@ -65,14 +65,14 @@ html, body {
 }
 
 .name-brand {
-    color: #e8a831b8;
+    color: #77520bb8;
     font-family: "Parisienne", cursive;
     font-size: 2.25rem;
     font-weight: 600;
 }
 
 .name-brand:hover {
-  color: #e8a831b8;
+  color: #77520bb8;
 }
 
 .name-brand + p {
