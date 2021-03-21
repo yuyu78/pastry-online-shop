@@ -470,13 +470,13 @@ input[type=date], input[type=time] {
     height: 50vh;
     }
 }
-
+/*
 @media screen and (min-width: 576px) {
     .img-pastry-chef {
     height:400px;
     width: 100%;
     }
-}
+}*/
 
 @media screen and (min-height: 1360px) {
     .img-pastry-chef {
@@ -508,7 +508,7 @@ input[type=date], input[type=time] {
 
 @media screen and (min-width: 992px) {
     #info-pastry-chef{
-    margin-top: 4rem;
+    margin-top: 0.5rem;
     }
 }
 
