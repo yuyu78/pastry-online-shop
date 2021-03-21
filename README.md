@@ -79,11 +79,18 @@ On the mobile device, the name of the business is not displayed.
 * In the store page, the customer can view the picture of the shop and the pastry chef. There is a google map with the address of the shop and opening hour.
 
 ##### Features Left to Implement
-* Add shopping cart and payment option instead of the form to make the order easier: Javascript or PHP needed
+* For the moment, in the form order, the modal is used to show confirmation order message. Even though there is a missing field, it will display the modal message.  
+In order to not submit when there is a missing field, javascript is needed.
+
+* Add Terms of use, privacy policy and copyright.
+
+* Add shopping cart and payment option: Javascript or PHP needed
 
 * FAQ pages to get all important information needed: Javascript or PHP needed
 
 * Create a search bar so if the customer types keyword, it will appear several choice of page related to this keyword: Javascript needed
+
+
 
 ### Structure plane
 
