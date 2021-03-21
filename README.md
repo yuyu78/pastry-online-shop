@@ -158,7 +158,8 @@ All the images were taken from [Unplash](https://unsplash.com/) and [Pexels](htt
 * **HTML5** and **CSS3** programming languages.
 * [Git](https://git-scm.com/) for version control
 * [Github](https://github.com/) to store repositories.
-* [Gitpod](https://www.gitpod.io/), for the workspace.  
+* [Gitpod](https://www.gitpod.io/), for the workspace. 
+* [Balsamiq](https://balsamiq.com/wireframes/) to create a mockup.
 * [Bootstrap](https://getbootstrap.com/) version 4.3.1, a framework to make the website responsive in easy way.
 * [Jquery](https://jquery.com/) and [Popper JS](https://popper.js.org/) to use navbar, dropdown and modal from bootstrap 
 * [Google fonts](https://fonts.google.com/) to choose font family for the website 
