@@ -1,5 +1,7 @@
 # TESTING French Pastry online shop "Un delice"
 
+[README file](https://github.com/yuyu78/pastry-online-shop/blob/master/README.md)
+
 ## HTML CSS validator
 ---
 Checked the validity of the code with [HTML Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) and there were no errors.
