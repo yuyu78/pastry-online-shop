@@ -133,3 +133,5 @@ As an alternative, put a red asterisk to show that the fields to fill in are req
 * Store page 
 
 ![image](https://user-images.githubusercontent.com/76018052/111905796-c2c90180-8a4d-11eb-98e2-50fddbcde6d9.png)
+
+On the store page, the aspect ratio of the pastry chef image is incorrect. Because of the lack of time, the issue couldn´t be fixed. 

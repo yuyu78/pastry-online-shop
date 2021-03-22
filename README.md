@@ -65,7 +65,7 @@ The business targets potentials clients who are living in Dublin or passing in t
 * As a **first-time visitor**, I want information about French pastry so I know what is the patisserie and viennoiserie.
 * As a **first-time visitor**, I want to view the list of pastry available so I can check the price, the allergens, the flavor.
 * As a **first-time visitor**, I want to easily navigate the site so I can get clear information quickly.
-* As an interested client, I want to know the ordering process so I can receive the product.   
+* As an **interested client**, I want to know the ordering process so I can receive the product.   
 * As an **interested client**, I want to know how and when I can receive my order so I can choose between collection or delivery and select a suitable time.
 * As an **interested client**, I want to get information about the shop so I can check the contact details, the location, the opening hour.
 * As a **returning customer**, I want to follow the shop on social media so that I can stay up to date with the latest news of the shop.
@@ -95,8 +95,10 @@ On the mobile device, the name of the business is not displayed.
 * On the store page, the customer can view the picture of the shop and the pastry chef. There is a google map with the address of the shop and opening hour.
 
 ##### Features Left to Implement
-* For the moment, in the form order, the modal is used to show the confirmation order message. Even though there is a missing field, it will display the modal message.  
+* For the moment, in the form order, the modal is used to show the confirmation order message. The issue is even though there is a missing field, it will display the modal message.  
+There is also the same issue with the subscription input on the home page.
 To not allow to submit when there is a missing field, javascript is needed.
+
 
 * Add Terms of use, privacy policy, and copyright.
 
@@ -145,7 +147,7 @@ Above, it displays a google map with the address of the shop including the openi
 
 [Home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/home-page.pdf)
 
-[Subcription home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/subscription-home-page.pdf)
+[Subscription home page](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/subscription-home-page.pdf)
 
 [Product page: Patisserie and Viennoiserie](https://github.com/yuyu78/pastry-online-shop/blob/master/wireframe/our-product-dropdown-patisserie-viennoiserie.pdf)
 
@@ -236,8 +238,8 @@ The steps for the deployment of the project:
 * Spacing from [Bootstrap](https://getbootstrap.com/docs/4.1/utilities/spacing/)
 * The social media section on the footer was inspired by the **Code Institute course with the Mini Project with Bootstrap 4**
 * Form from [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/)
-* The solution to remove the space on the right in the home page on mobile device: from [stackoverflow](https://stackoverflow.com/questions/46012482/unwanted-white-space-on-right-side-in-mobile-view/46012924)
-* To display two columns on mobile and three columns on desktop in the patisserie and viennoiserie page: found solution from [stackoverflow](https://stackoverflow.com/questions/21790409/3-columns-on-desktop-to-2-columns-on-tablet/21790525)
+* The solution to remove the space on the right in the home page on a mobile device: from [stackoverflow](https://stackoverflow.com/questions/46012482/unwanted-white-space-on-right-side-in-mobile-view/46012924)
+* To display two columns on mobile and three columns on the desktop in the patisserie and viennoiserie page: found solution from [stackoverflow](https://stackoverflow.com/questions/21790409/3-columns-on-desktop-to-2-columns-on-tablet/21790525)
 * To reveal and hide div element with the radio button in the order form, inspired from [stackoverflow](https://stackoverflow.com/questions/21790409/3-columns-on-desktop-to-2-columns-on-tablet/21790525)
 * To fix the issue of the radio button to allow to choose only one option, solution found in [stackoverflow](https://stackoverflow.com/questions/5419459/how-to-allow-only-one-radio-button-to-be-checked/5419479)
 
