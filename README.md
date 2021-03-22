@@ -8,6 +8,10 @@ This project aims to create a website for a French pastry shop, located in Dubli
 
 The design of the website is simple and clear so that the customer can navigate and read easily all the information on each different page. The customer can choose between two options to receive the order: collection at store or delivery.
 
+![image](https://user-images.githubusercontent.com/76018052/111926181-110ced80-8aac-11eb-8924-a45895138092.png)
+
+View the website [here](https://yuyu78.github.io/pastry-online-shop/index.html).
+
 ## Table of contents
 1. [UX](#ux)   
 a.[Strategy plane](#strategy-plane)  
